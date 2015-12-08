@@ -628,7 +628,6 @@ describe("ServerRenderingWorkflow", function() {
             layout,
             view,
             environmentConfig,
-            "app/ClientApp",
             ServerRequest.from(mockExpressRequest(), environmentConfig)
         );
     }
@@ -638,7 +637,6 @@ describe("ServerRenderingWorkflow", function() {
             layout,
             view,
             environmentConfig,
-            "app/ClientApp",
             ServerRequest.from(mockExpressRequest(), environmentConfig)
         );
     }
